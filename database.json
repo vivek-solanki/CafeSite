@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "Name": "Fitnesso",
+      "email": "viveksolanki7772@gmail.com",
+      "phone": "7772053018",
+      "food": "pizza",
+      "city": "Khategaon",
+      "address": "azad marg",
+      "id": 1
+    },
+    {
+      "Name": "Vivek",
+      "email": "viveksolanki7772@gmail.com",
+      "phone": "7772053018",
+      "food": "pizza",
+      "city": "Khategaon",
+      "address": "azad marg",
+      "id": 2
+    }
+  ]
+}
