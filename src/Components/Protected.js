@@ -10,7 +10,7 @@ function Protected(props) {
             navigate('/')
         }
 
-    }, [])
+    },)
     return (
         <div>
             <Component />
