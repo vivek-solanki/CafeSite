@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import party from '../Assets/Dinner_logo.svg'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import { Link } from 'react-router-dom';
 
 
 function Nav1() {
@@ -12,7 +13,7 @@ function Nav1() {
             {['xxl'].map((expand) => (
                 <Navbar key={expand} expand={expand} className='header bg-dark' >
                     <Container fluid>
-                        <Navbar.Brand ><img src={party} alt="#" className='logo' /></Navbar.Brand>
+                        <Navbar.Brand ><Link to="/"><img src={party} alt="#" className='logo' /></Link></Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}
@@ -21,7 +22,7 @@ function Nav1() {
                         >
                             <Offcanvas.Header closeButton className='bg-dark'>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                    <img src={party} alt="#" className='logo' />
+                                    <Link to="/"><img src={party} alt="#" className='logo' /></Link>
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body className='bg-dark'>
