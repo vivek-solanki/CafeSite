@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Scroll() {
     return (
         <>
-
+            <div className='d-md-block d-none'>
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -26,7 +26,9 @@ function Scroll() {
                         alt="Third slide"
                     />
                 </Carousel.Item>
-            </Carousel></>
+            </Carousel>
+            </div>
+        </>
     )
 }
 
