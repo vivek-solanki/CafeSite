@@ -352,6 +352,10 @@ section {
     border-radius: .5rem;
 }
 
+.sms{
+    margin-top:10vh;
+}
+
 .order .row form {
     flex: 1 1 50rem;
     padding: 1rem;

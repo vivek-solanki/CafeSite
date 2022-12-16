@@ -14,19 +14,19 @@ function Steps() {
                 <section className="steps">
 
                     <div className="box">
-                        <img src={stp1} alt="" />
+                        <img src={stp1} alt="" className='img-fluid' />
                         <h3>choose your favorite food</h3>
                     </div>
                     <div className="box">
-                        <img src={stp2} alt="" />
+                        <img src={stp2} alt="" className='img-fluid' />
                         <h3>fast delivery</h3>
                     </div>
                     <div className="box">
-                        <img src={stp3} alt="" />
+                        <img src={stp3} alt="" className='img-fluid' />
                         <h3>easy payments methods</h3>
                     </div>
                     <div className="box">
-                        <img src={stp4} alt="" />
+                        <img src={stp4} alt="" className='img-fluid' />
                         <h3>finally, enjoy your food</h3>
                     </div>
 

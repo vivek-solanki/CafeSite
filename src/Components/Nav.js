@@ -6,7 +6,6 @@ import party from '../Assets/Dinner_logo.svg'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom';
 
-
 function Nav1() {
     return (
         <>
@@ -40,6 +39,9 @@ function Nav1() {
 
             ))
             }
+            <div className='d-md-none'>
+                <img src='https://wallpaperaccess.com/full/6169319.jpg' alt="" className='img-fluid sms'/>
+            </div>
         </>
     );
 }
