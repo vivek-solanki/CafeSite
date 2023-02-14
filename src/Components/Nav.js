@@ -2,7 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import party from '../Assets/Dinner_logo.svg'
+// import party from '../Assets/Dinner_logo.svg'
+import party from '../Assets/SMS Jail Cafe.png'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom';
 

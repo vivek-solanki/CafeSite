@@ -1,6 +1,7 @@
 import { Field, Form, Formik, ErrorMessage } from 'formik'
 import React from 'react'
 import order from '../Assets/order.jpg'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import axios from 'axios'
 import * as yup from 'yup'
 

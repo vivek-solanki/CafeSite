@@ -50,7 +50,7 @@ function Gallary() {
                         </div>
                     </div>
                     <div className="box">
-                        <img src="https://www.oetker.in/Recipe/Recipes/oetker.in/in-en/fusion/image-thumb__132831__RecipeDetailsLightBox/schezwan-noodles.jpg" alt="" />
+                        <img src="https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/4x3/4x3-veg-schezwan-noodles-recipe-video-how-to-make-easy-veg-schezwan-noodles.jpg" alt="" />
                         <div className="content">
                             <h3>veg nudals</h3>
                             <p>order your Delicious veg nudals</p>
