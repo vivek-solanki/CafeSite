@@ -10,7 +10,7 @@ function Specility() {
         <>
             <section className="speciality" id="speciality">
 
-                <h1 className="heading"> our <span>speciality</span> </h1>
+                <h1 className="heading"> our special Food's </h1>
 
                 <div className="box-container">
 

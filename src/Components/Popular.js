@@ -5,7 +5,7 @@ function Popular() {
         <>
             <section className="popular" id='popular'>
 
-                <h1 className="heading"> most <span>popular</span> foods </h1>
+                <h1 className="heading">our most popular foods </h1>
 
                 <div className="box-container">
 

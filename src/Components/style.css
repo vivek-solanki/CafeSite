@@ -4,6 +4,10 @@
     --red: #ff3838;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -29,7 +33,7 @@ html {
 }
 
 body {
-    background: #f7f7f7;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,78,50,1) 71%, rgba(106,69,42,1) 100%);
 }
 
 section {
@@ -40,7 +44,7 @@ section {
     text-align: center;
     font-size: 6.5rem;
     padding: 1rem;
-    color: #666;
+    color: #ffffff;
 }
 
 .btn {
@@ -83,21 +87,33 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,78,50,1) 71%, rgba(106,69,42,1) 100%);
     padding: 1rem 5%;
+    box-shadow: -4px 15px 15px -5px #24211e;
 }
 
 
 .logo {
-    width: 20vh;
+    width: 15vh;
 }
 
 .navtxt {
     font-size: 2rem;
     margin-left: 2rem;
+}
+
+.navtxt::before {
+    background: var(--red);
+    transition: .3s linear;
+}
+
+.navtxt:hover::before {
+    width: 100%;
+    left: 0;
 }
 
 .shlid {
@@ -172,8 +188,8 @@ section {
     flex: 1 1 40rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    border: .1rem solid rgba(0, 0, 0, .3);
+    background-color: #f7f7f7;
+    box-shadow: 0 .1rem 0.5rem #ffffff;
     cursor: pointer;
     border-radius: .5rem;
 }
@@ -189,7 +205,6 @@ section {
 
 .speciality .box-container .box .content {
     text-align: center;
-    background: #fff;
     padding: 2rem;
 }
 
@@ -224,9 +239,8 @@ section {
 
 .popular .box-container .box {
     padding: 2rem;
-    background: #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    border: .1rem solid rgba(0, 0, 0, .3);
+    /* background: ; */
+    /* box-shadow: 0 .1rem 0.5rem #ffffff; */
     border-radius: .5rem;
     text-align: center;
     flex: 1 1 40rem;
@@ -252,7 +266,7 @@ section {
 }
 
 .popular .box-container .box h3 {
-    color: #333;
+    color: #f5ebeb;
     font-size: 2.5rem;
     padding-top: 1rem;
 }
@@ -278,7 +292,7 @@ section {
 
 .steps .box h3 {
     font-size: 3rem;
-    color: #333;
+    color: #ffffff;
     padding: 1rem;
 }
 
@@ -333,8 +347,8 @@ section {
 
 .order .row {
     padding: 2rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    background: #fff;
+    /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1); */
+    /* background: #fff; */
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -352,8 +366,8 @@ section {
     border-radius: .5rem;
 }
 
-.sms{
-    margin-top:10vh;
+.sms {
+    width: 100vw;
 }
 
 .order .row form {
@@ -385,7 +399,6 @@ section {
 }
 
 .footer {
-    background: #292828b2;
     text-align: center;
 }
 

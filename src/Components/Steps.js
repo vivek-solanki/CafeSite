@@ -3,6 +3,7 @@ import stp1 from '../Assets/step-1.jpg'
 import stp2 from '../Assets/step-2.jpg'
 import stp3 from '../Assets/step-3.jpg'
 import stp4 from '../Assets/step-4.jpg'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function Steps() {
     return (

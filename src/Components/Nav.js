@@ -11,7 +11,7 @@ function Nav1() {
     return (
         <>
             {['xxl'].map((expand) => (
-                <Navbar key={expand} expand={expand} className='header bg-dark' >
+                <Navbar key={expand} expand={expand} className='header' >
                     <Container fluid>
                         <Navbar.Brand ><Link to="/"><img src={party} alt="#" className='logo' /></Link></Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -20,12 +20,12 @@ function Nav1() {
                             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                             placement="end"
                         >
-                            <Offcanvas.Header closeButton className='bg-dark'>
+                            <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                                     <Link to="/"><img src={party} alt="#" className='logo' /></Link>
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
-                            <Offcanvas.Body className='bg-dark'>
+                            <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <Nav.Link href="#home" className='pe-5 text-light navtxt'>Home</Nav.Link>
                                     <Nav.Link href="#speciality" className='pe-5 text-light navtxt'>Speciality</Nav.Link>
